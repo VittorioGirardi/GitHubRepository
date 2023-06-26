@@ -1,0 +1,81 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-image: url("./background1.jpg");
+    background-size: auto;
+    font-size: xx-large;
+}
+
+.container {
+    size: 50%;
+    text-align: center;
+    overflow-wrap: break-word;
+}
+
+.header {
+    text-align: center;
+    justify-content: center;
+    overflow-wrap: break-word;
+}
+
+h1 {
+    text-align: center;
+    border-radius: 10%;
+    overflow-wrap: break-word;
+    font-style: italic;
+    color: whitesmoke;
+}
+
+p {
+    color: whitesmoke;
+    text-align: center;
+    width: 40em;
+    border-radius: 20%;
+    font-style: italic;
+    display: inline-block;
+    text-align: center;
+}
+
+img {
+    width: 60%;
+    border-radius: 5%;
+}
+
+a {
+    color: whitesmoke;
+    font-weight: bold;
+    margin: auto;
+    font-size: auto;
+    text-decoration: none;
+    font-style: normal;
+}
+
+footer {
+    min-height:50px;
+    overflow: hidden;
+    overflow: break-word;
+
+}
+
+a:hover {
+    color: transparent;
+    transition: 500ms ease;
+    color: rgb(133, 61, 61);
+  }
+
+  .grid-container {
+    display: inline-grid;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+
+.endheader {
+    font-size: larger;
+    margin-top: 100px;
+}
+  .endpage {
+    font-size: small;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+  }

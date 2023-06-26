@@ -1,0 +1,82 @@
+html, body {
+  background-color: whitesmoke;
+  font-family: 'Ubuntu', sans-serif;
+  margin:0;
+  padding:0;
+  height:100%;
+  flex-direction: column;
+}
+
+#test {
+  transition: top 0.3s;
+}
+
+p {
+    color: black;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.bio {
+  display: inline-block;
+  width: 50%;
+  background-color: rgb(201, 199, 199);
+  border-radius: 30px;
+  padding: 8px;
+}
+ul {
+  font-family: 'Ubuntu', 'sans-serif';
+  color: black;
+  list-style-type: none;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  font-weight: 900;
+  overflow: hidden;
+  background-color: rgb(201, 199, 199);
+  padding: 30px; 
+}
+
+li {
+  display: inline;
+}
+
+.header {
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    color: black
+}
+
+img {
+  width: 20%;
+  justify-content: center;
+  display: block;
+  margin: 0 auto;
+}
+
+.grid-container {
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 60%;
+  flex-direction: row;
+}
+
+@media (max-width: 800px) {
+  .grid-container {
+    flex-direction: column;
+  }
+}
+
+footer {
+  color: black;
+  bottom: 0;
+  margin-top: auto;
+  display: inline;
+}

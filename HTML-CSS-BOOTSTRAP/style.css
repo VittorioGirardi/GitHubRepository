@@ -1,0 +1,209 @@
+body {
+    background-image: url("https://t.ly/3QLJr");
+    background-size: cover;
+    margin-bottom: 30px;
+}
+
+nav {
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(30px);
+    border: none;
+    background-color: transparent !important;
+    width: 50%;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    position: sticky;
+    top: 0;
+}
+
+.nav-link {
+    color: rgb(255, 255, 255);
+    font: 'Ubuntu', sans-serif;
+}
+
+.nav-link:hover {
+    color: rgb(110, 55, 107);
+}
+
+i {
+    color: #ffffff;
+}
+
+.header {
+    padding-top: 500px;
+}
+
+.container {
+    background-image: url("https://shorturl.at/uFNS5");
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.paragraph {
+    display: flex;
+    display: inline-flex;
+}
+
+label {
+    color: whitesmoke;
+    border-radius: 10px;
+}
+
+.container-form {
+    display: flex;
+    justify-content: center;
+}
+
+.form-check-label, .form-check-input, .invalid-feedback, .btn {
+    justify-content: center;
+}
+
+.form-group {
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.firstp {
+
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px;
+    background-color: transparent !important;
+    color: whitesmoke;
+}
+
+.progress {
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.variant-a {
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.text-white:hover {
+    color: rgb(151, 79, 79);
+}
+
+.header {
+    padding-top: 50px;
+    margin-top: 30px;
+}
+
+h1 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 10px;
+    font-weight: 800;
+    font-style: italic;
+    font: 'Ubuntu', sans-serif;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+p {
+    text-align: center;
+    font: 'Ubuntu', sans-serif;
+    margin-top: 50px;
+    font-size: large;
+    margin-bottom: 50px;
+    color: rgb(0, 0, 0);
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 5px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    overflow: break-word;
+    position: relative;
+}
+
+.p-c {
+    padding: 30px;
+    width: 600px;
+    position: relative;
+    color: whitesmoke;
+    background-color: transparent !important;
+}
+
+.p-python {
+    padding: 40px;
+    width: 600px;
+    position: relative;
+    color: whitesmoke;
+    background-color: transparent !important;
+}
+
+img {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100px;
+    margin-top: 100px;
+}
+
+
+.python {
+    padding: 5px;
+}
+
+.footerh {
+    margin-bottom: 50px;
+    color: rgb(255, 255, 255);
+    font-style: normal;
+    background-color: black;
+}
+
+.form-h { background-color: black; color: white; margin-top: 150px; }
+
+.competenza {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+.text-black {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 900;
+}
+
+footer {
+    padding-bottom: 50px;
+}
+
+.needs-validation {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+label {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+form {
+    margin-bottom: 100px;
+}

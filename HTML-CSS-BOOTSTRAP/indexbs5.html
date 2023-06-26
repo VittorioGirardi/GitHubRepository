@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+    <!-- Link e Script BOOTSTRAP -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+    integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+    integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+
+    <!-- Link Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4e2cafe786.js" crossorigin="anonymous"></script>
+
+    <!-- Link Stylesheet CSS -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- Link Icona Font Awesome -->
+
+    <link rel = "icon" href ="./logo.jpg" type = "image/x-icon">
+
+    <link rel="stylesheet" href="./javascript.js">
+
+    
+    <title>FrancoBattiatoProgrammatore</title>
+</head>
+<body>
+    <nav id="main-nav">
+        <ul class="nav justify-content-center" id="navId" role="tablist">
+            <li class="nav-item">
+                <a href="#tab1Id" class="nav-link" data-bs-toggle="tab" aria-current="page">Home</a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a href="#tab5Id" class="nav-link" data-bs-toggle="tab">Wiki</a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a href="#tab5Id" class="nav-link" data-bs-toggle="tab">LinkedIn <i class="fa-solid fa-code"></i></a>
+            </li>
+    </nav>
+
+
+    <div class="container">
+
+    <div class="header">
+        <h1 class="first-title">Vittorio Girardi</h1>
+        <p class="firstp">Vittorio Girardi, all'anagrafe Vittorio Girardi, è stato un cantautore, compositore, scrittore, regista, pittore, politico italiano e programmatore Python/C#. </p>
+    </div>
+
+
+
+    <div class="paragraph">
+        <div>
+          <img SRC="./line-chart.gif">.
+          <br>
+          <h1>C#.</h1>
+          <p class="p-c">
+              Ho scoperto la passione per la programmazione in gioventù partendo da C.
+              Insieme a <a href="https://t.ly/IMte" target="_blank">Fabrizio De Andrè</a> e <a href="https://t.ly/TCeg" target="_blank">Lorella Cuccarini</a> decidemmo di frequentare dei corsi di software development in C#, linguaggio decisamente più digeribile.
+          </p>
+          <p class="competenza">Competenza in questo linguaggio:</p>
+            <div class="progress">
+              <div class="progress-bar bg-info justify-content-center" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="python">
+          <img src="./cloud-network.gif">
+          <br>
+          <h1>Python.</h1>
+          <p class="p-python">Iniziai a programmare in Python nel lontano 1996.
+              Vorrei cogliere l'occasione per ringraziare <a href="./maurizio.png" target="_blank">Guido van Rossum</a> per aver creato questo linguaggio orientato ad oggetti.
+          </p>
+          <p class="competenza">Competenza in questo linguaggio:</p>
+            <div class="progress">
+              <div class="progress-bar bg-info justify-content-center" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container-form">
+      <form class="needs-validation" novalidate>
+        <h1 class="form-h">Rimani Aggiornato.</h1>
+        <div class="form-row">
+          <div class="mx-auto col-10 col-md-8 col-lg-6">
+            <label for="validationCustom01">Nome</label>
+            <input type="text" class="form-control" id="validationCustom01" placeholder="Nome" value="" required>
+            <div class="valid-feedback">
+              Input valido.
+            </div>
+          </div>
+          <div class="mx-auto col-10 col-md-8 col-lg-6">
+            <label for="validationCustom02">Cognome</label>
+            <input type="text" class="form-control" id="validationCustom02" placeholder="Cognome" value="" required>
+            <div class="valid-feedback">
+              Input valido.
+            </div>
+          </div>
+          <div class="mx-auto col-10 col-md-8 col-lg-6">
+            <label for="validationCustomUsername">Username</label>
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="inputGroupPrepend">@</span>
+              </div>
+              <input type="text" class="form-control" id="validationCustomUsername" placeholder="Nome Utente" aria-describedby="inputGroupPrepend" required>
+              <div class="invalid-feedback">
+                Scegli un username.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="mx-auto col-10 col-md-8 col-lg-6">
+            <label for="validationCustom03">City</label>
+            <input type="text" class="form-control" id="validationCustom03" placeholder="Città" required>
+            <div class="invalid-feedback">
+              Inserisci la tua città di residenza.
+            </div>
+          </div>
+          <div class="mx-auto col-10 col-md-8 col-lg-6">
+            <label for="validationCustom04">Stato</label>
+            <input type="text" class="form-control" id="validationCustom04" placeholder="Stato" required>
+            <div class="invalid-feedback">
+              Inserisci la tua nazionalità.
+            </div>
+          </div>
+          <div class="mx-auto col-10 col-md-8 col-lg-6">
+            <label for="validationCustom05">Codice Postale</label>
+            <input type="text" class="form-control" id="validationCustom05" placeholder="Codice Postale" required>
+            <div class="invalid-feedback">
+              Inserisci il tuo codice postale.
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+            <label class="form-check-label" for="invalidCheck">
+              Accetta i termini e le condizioni.
+            </label>
+            <div class="invalid-feedback">
+              Devi accettare i termini e le condizioni.
+            </div>
+          </div>
+        </div>
+        <button class="btn btn-primary bg-info justify-content-evenly" type="submit">Invio.</button>
+      </form>
+    </div>
+  
+
+    
+    <!-- Footer -->
+<footer class="text-center text-white">
+    <!-- Section: Links -->
+    <section class="">
+      <h1 class="footerh">I miei lavori:</h1>
+      <!--Grid row-->
+      <div class="row">
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a class="variant-a" href="https://www.liguriadigitale.it/" class="text-black" target="_blank">Liguria Digitale.</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a class="variant-a" href="https://www.alimentinutrizione.it/" class="text-black" target="_blank">AlimentiNUTrizione.</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a class="variant-a" href="https://unige.it/" class="text-black" target="_blank">Sito Università di Genova.</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a class="variant-a" href="https://www.microsoft.com/it-it" class="text-black" target="_blank">Microsoft.</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+      </div>
+      <!--Grid row-->
+    </section>
+    <!-- Section: Links -->
+  </div>
+  <!-- Grid container -->
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+
+
+
+</div>
+
+
+
+    
+</body>
+</html>

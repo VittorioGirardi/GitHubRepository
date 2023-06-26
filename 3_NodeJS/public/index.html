@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form AJAX</title>
+</head>
+<body>
+    <h1>Form AJAX</h1>
+    <form action="form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+        <br>
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email">
+        <br>
+        <textarea name="textarea" id="textarea"></textarea>
+        <br>
+        <select name="select" id="select">
+            <option value="sergio">Sergio</option>
+            <option value="mario">Mario</option>
+            <option value="franco">Franco</option>
+            <option value="silvio">Silvio</option>
+        </select>
+        <button type="submit">Invia</button>
+    </form>
+    <div id="result"></div>
+    <script src="script.js"></script>
+</body>
+</html>
