@@ -103,7 +103,7 @@ app.post('/login', (req, res) => {
             }
             else if (row.role  === 'User'){
                 res.redirect('/client.html');
-                console.log('sei un cliente!!!!');
+                console.log('sei un cliente!');
             }
             else {
                 res.send('Credenziali non valide!');
